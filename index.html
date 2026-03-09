@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizzaria di Oliveira</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Pizzaria di Oliveira</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pizzas">Pizzas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pedido">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<header class="bg-dark text-white text-center p-5">
+  <div class="container">
+
+    <h1 class="display-4">Pizzaria di Oliveira</h1>
+
+    <p class="lead">
+      As melhores pizzas artesanais da cidade, feitas no forno à lenha.
+    </p>
+
+    <div class="mt-3">
+      <a href="#pedido" class="btn btn-danger btn-lg me-2">Fazer pedido</a>
+      <a href="#pizzas" class="btn btn-outline-light btn-lg">Ver promoções</a>
+    </div>
+
+  </div>
+</header>
+
+
+<div class="container mt-4">
+  <div class="bg-warning text-dark text-center p-4 rounded">
+
+    <p class="lead">
+      Na Pizzaria di Oliveira você encontra pizzas artesanais feitas no forno à lenha,
+      ingredientes frescos e receitas tradicionais italianas.
+    </p>
+
+    <a href="#pizzas" class="btn btn-dark">Saiba mais</a>
+
+  </div>
+</div>
+
+
+<section id="pizzas" class="mt-5">
+
+  <div class="container">
+
+    <h2 class="text-center mb-4">Nossas Pizzas Mais Pedidas</h2>
+
+    <div class="row">
+
+
+      <div class="col-md-4 text-center p-3 d-flex flex-column align-items-center">
+
+        <img src="https://cdn0.tudoreceitas.com/pt/posts/9/8/3/pizza_calabresa_e_mussarela_4389_600_square.jpg"
+        class="rounded-circle mb-3"
+        style="width:200px;height:200px;object-fit:cover;">
+
+        <h3>Calabresa</h3>
+
+        <p>
+          Calabresa fatiada e cebola.
+        </p>
+
+        <p class="fw-bold text-danger mt-auto">R$ 39,90</p>
+
+        <a href="#pedido" class="btn btn-danger mt-auto">Pedir agora</a>
+
+      </div>
+
+
+      <div class="col-md-4 text-center p-3 d-flex flex-column align-items-center">
+
+        <img src="https://blog.fornettostore.com.br/wp-content/uploads/2025/03/blog-receita-frango-catupiry.jpg"
+        class="rounded-circle mb-3"
+        style="width:200px;height:200px;object-fit:cover;">
+
+        <h3>Frango com Catupiry</h3>
+
+        <p>
+          Frango desfiado temperado com catupiry cremoso.
+        </p>
+
+        <p class="fw-bold text-danger  mt-auto">R$ 42,90</p>
+
+        <a href="#pedido" class="btn btn-danger mt-auto">Pedir agora</a>
+
+      </div>
+
+
+      <div class="col-md-4 text-center p-3 d-flex flex-column align-items-center">
+
+        <img src="https://rossopizza.com.br/salao/wp-content/uploads/2019/09/istock-181175167.jpg"
+        class="rounded-circle mb-3"
+        style="width:200px;height:200px;object-fit:cover;">
+
+        <h3>Marguerita</h3>
+
+        <p>
+          Molho de tomate, mussarela fresca, tomate e manjericão.
+        </p>
+
+        <p class="fw-bold text-danger  mt-auto">R$ 37,90</p>
+
+        <a href="#pedido" class="btn btn-danger mt-auto">Pedir agora</a>
+
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="pedido" class="mt-5">
+
+  <div class="container">
+
+    <h2 class="text-center mb-4">Faça seu pedido</h2>
+
+    <form>
+
+      <div class="mb-3">
+        <label class="form-label">Nome</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Telefone</label>
+        <input type="tel" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Escolha sua pizza</label>
+
+        <select class="form-select">
+          <option>Calabresa</option>
+          <option>Frango com Catupiry</option>
+          <option>Marguerita</option>
+        </select>
+
+      </div>
+
+      <button class="btn btn-danger">Enviar pedido</button>
+
+    </form>
+
+  </div>
+</section>
+
+
+
+<footer class="bg-dark text-white text-center p-4 mt-5">
+
+  <div class="container">
+
+    <p class="mb-1">© 2026 Pizzaria di Oliveira</p>
+
+    <p class="mb-0">
+      Rua das Pizzas, 123 - Salvador, BA
+    </p>
+
+  </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
