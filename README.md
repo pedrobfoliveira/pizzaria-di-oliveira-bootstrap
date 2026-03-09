@@ -68,14 +68,6 @@ Formulário simples onde o usuário pode:
 
 Contém informações básicas da pizzaria.
 
-## 📱 Responsividade
-
-A página foi construída utilizando o **sistema de grid do Bootstrap**, garantindo que o layout se adapte a diferentes tamanhos de tela, incluindo:
-
-* computadores
-* tablets
-* dispositivos móveis
-
 ## 🚀 Autor
 
 Projeto desenvolvido por **Pedro Oliveira** como atividade prática da disciplina de **Desenvolvimento Full Stack**.
